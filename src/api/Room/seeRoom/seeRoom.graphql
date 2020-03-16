@@ -1,0 +1,12 @@
+# type SeeRoomResponse {
+#   room: Room!
+#   messages: [Message!]!
+# }
+
+# type Query {
+#   seeRoom(id: String!): SeeRoomResponse!
+# }
+
+type Query {
+  seeRoom(id: String!): Room!
+}
